@@ -91,17 +91,10 @@ const MainMenu = animated(props => {
       <footer className="absolute bottom-10 flex flex-col items-center gap-2">
         <p className="inline-flex items-center gap-1 text-2xl">
           Made with <span className="icon-[solar--heart-angle-bold]" /> by{' '}
-          <a href="https://github.com/dammafra/hook-a-fish" target="_blank">
-            @dammafra
+          <a href="https://lachiethurlow.com" target="_blank" rel="noopener noreferrer">
+            Lachie Thurlow
           </a>
         </p>
-        <a href="https://www.buymeacoffee.com/dammafra" target="_blank">
-          <img
-            src="./bmc.png"
-            alt="Buy Me A Coffee"
-            className="h-10 hover:opacity-80 active:opacity-80"
-          />
-        </a>
       </footer>
     </div>
   )
@@ -222,7 +215,7 @@ const End = animated(props => {
 I just caught ${lastScore} fish in Hook-A-Fish!
 Can you beat my score?
 
-🎣 https://hook-a-fish.dammafra.dev
+🎣 https://lachiethurlow.com
 
 #hookafish #indiegame #indiedev #fishinggame #webgame #threejs`,
     }

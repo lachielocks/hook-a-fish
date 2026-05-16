@@ -9,7 +9,7 @@
 
 > 🥇 1st place in the [Three.js Journey Challenge 019](https://threejs-journey.com/challenges/019-aquarium)
 
-> Try it live here 👉 [hook-a-fish.dammafra.dev](https://hook-a-fish.dammafra.dev)
+> Play at [lachiethurlow.com](https://lachiethurlow.com)
 
 Dive into _Hook-A-Fish!_ Inspired by childhood memories, you will face a fun, fast-paced fishing challenge against the clock.
 
@@ -79,6 +79,8 @@ If you have any suggestions, feel free to reach out!
 
 ## License
 
-© 2025 Francesco Dammacco  
+Copyright © 2025 Francesco Dammacco (original author)  
+Copyright © 2026 Lachie Thurlow (modified version)
+
 This project is licensed under the GNU Affero General Public License v3.0.  
 See the [LICENSE](./LICENSE) file for details.
