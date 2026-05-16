@@ -182,6 +182,28 @@ const Credits = animated(props => {
           <li><a href="https://kenney.nl/assets/cursor-pack" target="_blank" className="uppercase">Cursor Pack</a> by <span className="uppercase">Kenney</span></li>
         </ul>
       </div>
+      <div className="mt-2 border-t border-white/20 pt-3">
+        <h2 className="font-title">License</h2>
+        <p className="max-w-md mx-auto leading-snug">
+          Based on <span className="font-extrabold">Hook-A-Fish!</span> by Francesco Dammacco.
+          Modified version © Lachie Thurlow. Licensed under{' '}
+          <a
+            href="https://www.gnu.org/licenses/agpl-3.0.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GNU AGPL v3
+          </a>
+          .{' '}
+          <a
+            href="https://github.com/lachielocks/hook-a-fish"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source code
+          </a>
+        </p>
+      </div>
       <animated.button
         style={buttonBackSpring}
         className="max-md:absolute max-md:bottom-10 sm"
