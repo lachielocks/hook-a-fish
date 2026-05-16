@@ -17,8 +17,10 @@ export class MyRoom extends Room<MyRoomState> {
     console.log(client.sessionId, 'joined!')
   }
 
-  onLeave(client: Client, consented: boolean) {
-    console.log(client.sessionId, 'left!')
+  // Changed 'consented: boolean' to 'code: number' to match Colyseus types
+  onLeave(client: Client, code: number) {
+    const consented = code === 1000
+    console.log(client.sessionId, `left! (Intentional/Consented: ${consented})`)
   }
 
   onDispose() {
