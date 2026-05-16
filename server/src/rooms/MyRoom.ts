@@ -1,7 +1,7 @@
 import { Client, Room } from '@colyseus/core'
 import { MyRoomState } from './schema/MyRoomState'
 
-export class MyRoom extends Room<MyRoomState> {
+export class MyRoom extends Room<MyRoomState, any> {
   maxClients = 4
   state = new MyRoomState()
 
