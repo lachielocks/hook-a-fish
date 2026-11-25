@@ -15,8 +15,6 @@ Dive into _Hook-A-Fish!_ Inspired by childhood memories, you will face a fun, fa
 
 The goal is simple: catch as many fish as you can. Each fish you catch gives you extra time, and you can share your results with friends to challenge them.
 
-<img src="./client/public/cover.png" alt="Cover"  >
-
 ## Technologies Used
 
 - [React](https://react.dev/)
@@ -70,8 +68,6 @@ The game is optimized for mobile devices, providing a smooth and engaging experi
 ## Credits
 
 Check out the credits section in the project for a full list of resources used
-
-<img src="./screens/credits.png" alt="Credits"  >
 
 ## Feedback
 
